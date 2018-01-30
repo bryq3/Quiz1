@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quiz.Main2Activity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginBottom="20dp"
+    >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queston 1"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="10dp"
+        />
+
+        <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/nawalka"
+        />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who is the coach of Polish national team?"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        />
+        <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robert Górski"
+            />
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jerzy Engel"
+            />
+            <RadioButton
+            android:id="@+id/nawalka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adam Nawalka"
+            />
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queston 2"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/opaska"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is the captain of Polish national team?"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_margin="15dp"
+            android:textAlignment="center"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jakub Błaszczykowski"
+                />
+            <RadioButton
+                android:id="@+id/lewy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Robert Lewandowski"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lukasz Piszczek"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 3"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/podium"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What place does Poland hold in Fifa ranking? (just before world cup in Russia)"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/podium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 4"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/draw"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Which teams play with Poland in the group stage of World Cup in Russia 2018?"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/basket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Senegal, Colombia, Japan"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Italy, Saudi Arabia, Argentina"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="England, South Korea, Nigeria"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 5"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/glik"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is the nominal position of this player?"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/glik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Center Back"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Right Wing"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Center Midfielder"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 6"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/team"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is the fastest player in the team?"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Robert Lewandowski"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grzegorz Krychowiak"
+                    />
+                <RadioButton
+                    android:id="@+id/turbo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kamil Grosicki"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 7"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/milik"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is he and for which team does he play?"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lukasz Piszczek, Borussia Dortmund"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bartosz Bereszynski, Sampdoria Genoa"
+                    />
+                <RadioButton
+                    android:id="@+id/milik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arkadiusz Milik, Napoli"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 8"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/krycha"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This player is known for his unusual hobby, which is..."
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="parties"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="skydiving"
+                    />
+                <RadioButton
+                    android:id="@+id/krycha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fashion"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Queston 9"
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:background="@drawable/piszczek"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How old is he?"
+                android:textSize="20sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_margin="15dp"
+                android:textAlignment="center"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="28"
+                    />
+                <RadioButton
+                    android:id="@+id/piszczek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="32"
+                    />
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    />
+
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Queston 10"
+                    android:layout_marginTop="20dp"
+                    android:textSize="30sp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_margin="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/lewandowski"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Robert Lewandowski was the best scorer in european Word Cup qualificaitons. How many goals did he score?"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_margin="15dp"
+                    android:textAlignment="center"
+                    />
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+                        />
+                    <RadioButton
+                        android:id="@+id/lewandowski"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="16"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13"
+                        />
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:layout_margin="20dp"
+            />
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
